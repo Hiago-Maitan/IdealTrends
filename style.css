@@ -171,7 +171,6 @@ header ul li ul li ul {
 }
 
 /* Main */
-
 main {
   padding: 1rem 3rem;
 }
@@ -367,7 +366,7 @@ footer ul li a:hover {
   }
 
   /* Footer */
-  footer {
-    font-size: 0.5rem;
+  footer ul {
+    gap: 1rem;
   }
 }
