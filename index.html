@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ideal Trends</title>
+    <title>Ideal Trends - Somos movidos por um sonho grandioso e desafiador</title>
     <!-- Fonte Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,56 +19,57 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
     <!-- Estilos -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="header-line"></div>
+    <div class="header-line">94550-1745</div>
 
+    <!-- Header / Nav -->
     <header>
-      <img class="logo" src="assets/img/logo.png" alt="Logo" />
+      <img class="logo" src="assets/img/logo.png" alt="Logo Ideal Trends" />
       <div class="menuToggle"></div>
       <nav>
         <ul>
           <li><a href="#">HOME</a></li>
           <li>
             <a href="#">EMPRESA <i class="fas fa-caret-down"></i></a>
-            <!-- First Submenu -->
+            <!-- First Sub-menu -->
             <ul>
               <li>
                 <a
                   href="https://www.instagram.com/autismevolve/"
-                  target="_blank"
-                  >Autism Envolve</a
-                >
+                  target="_blank"> 
+                  Autism Envolve
+                </a>
               </li>
               <li>
-                <a href="https://www.clinicaideal.com/" target="_blank"
-                  >Clinica Ideal</a
-                >
+                <a href="https://www.clinicaideal.com/" target="_blank">
+                  Clinica Ideal
+                </a>
               </li>
               <li>
-                <a href="#" class="select-item"
-                  >Mais
+                <a href="#" class="select-item">
+                  Mais
                   <i class="fas fa-caret-right"></i>
                 </a>
-
-                <!-- Second Submenu -->
+                <!-- Second Sub-menu -->
                 <ul>
                   <li>
-                    <a href="https://www.buscacliente.com.br/" target="_blank"
-                      >Busca Cliente</a
-                    >
+                    <a href="https://www.buscacliente.com.br/" target="_blank">
+                      Busca Cliente
+                    </a>
                   </li>
                   <li>
-                    <a href="https://www.idealsales.com.br/" target="_blank"
-                      >Ideal Sales</a
-                    >
+                    <a href="https://www.idealsales.com.br/" target="_blank">
+                      Ideal Sales
+                    </a>
                   </li>
                   <li>
-                    <a href="https://odontopag.idealpay.io/" target="_blank"
-                      >Odonto Pag</a
-                    >
+                    <a href="https://odontopag.idealpay.io/" target="_blank">
+                      Odonto Pag
+                    </a>
                   </li>
                 </ul>
               </li>
@@ -84,16 +85,20 @@
     <section class="container">
       <section class="slider-wrapper">
         <section class="slider">
-          <img id="slider-1" src="assets/img/banner.jpg" alt="primeiro slide" />
-          <img
-            id="slider-2"
-            src="assets/img/banner02.jpg"
-            alt="segundo slide"
+          <img 
+          id="slider-1" 
+          src="assets/img/banners/banner.jpg" 
+          alt="primeiro slide" 
           />
-          <img
-            id="slider-3"
-            src="assets/img/banner03.jpg"
-            alt="terceiro slide"
+          <img 
+          id="slider-2" 
+          src="assets/img/banners/banner02.jpg" 
+          alt="segundo slide"
+          />
+          <img 
+          id="slider-3" 
+          src="assets/img/banners/banner03.jpg" 
+          alt="terceiro slide"
           />
         </section>
         <div class="slider-nav">
@@ -147,6 +152,7 @@
           </p>
         </article>
 
+        <!-- img people -->
         <section class="img-people"></section>
       </section>
 
@@ -155,17 +161,20 @@
 
       <section class="companies-container">
         <a href="https://www.idealodonto.com.br/" target="_blank">
-          <img src="assets/img/Ideal-Odonto.jpg" alt="Logo Ideal Odonto"
-        /></a>
-        <a href="https://brz.annecarolineglobal.com/" target="_blank"
-          ><img src="assets/img/Anne.jpg" alt="Logo Anne Caroline global"
-        /></a>
-        <a href="https://idealeducacao.com.br/" target="_blank"
-          ><img src="assets/img/Ideal-Educacao.jpg" alt="Logo Ideal Educação"
-        /></a>
-        <a href="https://www.idealmarketing.com.br/" target="_blank"
-          ><img src="assets/img/Ideal-Mkt.jpg" alt="Logo Ideal Marketing"
-        /></a>
+          <img src="assets/img/companies/Ideal-Odonto.jpg" alt="Logo Ideal Odonto"/>
+        </a>
+
+        <a href="https://brz.annecarolineglobal.com/" target="_blank">
+          <img src="assets/img/companies/Anne.jpg" alt="Logo Anne Caroline global"/>
+        </a>
+
+        <a href="https://idealeducacao.com.br/" target="_blank">
+          <img src="assets/img/companies/Ideal-Educacao.jpg" alt="Logo Ideal Educação"/>
+        </a>
+
+        <a href="https://www.idealmarketing.com.br/" target="_blank">
+          <img src="assets/img/companies/Ideal-Mkt.jpg" alt="Logo Ideal Marketing"/>
+        </a>
       </section>
     </main>
 
@@ -177,17 +186,9 @@
         <li><a href="#">CLIENTES</a></li>
         <li><a href="#">CONTATOS</a></li>
       </ul>
-
       <p>Grupo Ideal Trends. © 2024. Todos os direitos são reservados.</p>
     </footer>
 
-    <script>
-      let menuToggle = document.querySelector(".menuToggle");
-      let header = document.querySelector("header");
-
-      menuToggle.onclick = function () {
-        header.classList.toggle("active");
-      };
-    </script>
+    <script src="scripts/menuToggle.js"></script>
   </body>
 </html>
