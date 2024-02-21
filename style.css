@@ -14,6 +14,7 @@ body {
   height: 4vh;
   padding: 1rem 10rem;
   font-size: 0.8rem;
+  width: 100vw;
 
   background-color: #0c4b87;
   color: #ffffff;
@@ -24,7 +25,7 @@ body {
 }
 
 header {
-  width: 100%;
+  width: 100vw;
   min-height: 16vh;
   padding: 0 10rem;
 
@@ -230,7 +231,7 @@ main .companies-container img:hover {
 /* Footer */
 footer {
   color: #7a7878;
-  width: 100%;
+  width: 100wv;
   height: 10rem;
   padding: 0.9rem;
 
@@ -250,6 +251,14 @@ footer ul li a:hover {
 
 /* Responsive */
 @media (max-width: 910px) {
+  .header-line {
+    text-align: center;
+    font-size: 10px;
+    border: 1px solid red;
+    width: 100%;
+  }
+
+  /* Navbar */
   header {
     padding: 10px 20px;
   }
@@ -266,6 +275,7 @@ footer ul li a:hover {
 
   header.active nav {
     display: initial;
+    width: 100%;
   }
 
   header nav ul {
@@ -342,7 +352,8 @@ footer ul li a:hover {
   }
 
   /* Main, Footer */
-  main h2, footer {
+  main h2,
+  footer {
     text-align: center;
   }
 
@@ -353,5 +364,10 @@ footer ul li a:hover {
 
   main .about-us section img {
     width: 20rem;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 0.8rem;
   }
 }
